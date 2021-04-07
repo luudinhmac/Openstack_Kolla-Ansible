@@ -3,8 +3,8 @@
 System Requirements
 Below are the recommended minimum requirements for deploying AIO OpenStack with Kolla-Ansible:
 
-![](/image/1.png)
-!(/image/1.png)
+![](/Image/1.png)
+
 
 
 2 (or more) network interfaces.
