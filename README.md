@@ -373,3 +373,12 @@ Therefore, to access the OpenStack Horizon from the browser, use the address, ht
 
 .This should take you to OpenStack web interface login page;
 ![](/Image/3.PNG)
+
+Login using admin as the username.
+
+You can obtain the admin credentials from the Kolla passwords file, /etc/kolla/passwords.yml. For the Horizon authentication, you need to the Keystone admin password.
+
+```sh
+grep keystone_admin_password /etc/kolla/passwords.yml
+```
+keystone_admin_password: vyntMgfyaZnHUcVGqQJ5OqVxbe4ppUJ2exAiB7po
