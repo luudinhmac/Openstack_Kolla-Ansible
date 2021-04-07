@@ -9,8 +9,10 @@ Install Required Packages on Ubuntu 18.04
 Before you can proceed, there are a number of required packages that needs to be installed.
 Update and upgrade your system packages
 
-``` sudo apt update
-``` sudo apt upgrade
+```sh sudo apt update
+   sudo apt upgrade
+```
 Install the required packages;
 
-``` sudo apt install python3-dev python3-venv libffi-dev gcc libssl-dev git
+```sh sudo apt install python3-dev python3-venv libffi-dev gcc libssl-dev git
+```
