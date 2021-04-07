@@ -94,23 +94,10 @@ Below are the basic options that we enabled for our AIO OpenStack deployment.
 grep -vE '^$|^#' /etc/kolla/globals.yml
 ---
 ```
-config_strategy: "COPY_ALWAYS"
-kolla_base_distro: "ubuntu"
-kolla_install_type: "binary"
-openstack_release: "ussuri"
-kolla_internal_vip_address: "192.168.122.206"
-kolla_internal_fqdn: "{{ kolla-openstack.kifarunix-demo.com }}"
-kolla_external_vip_address: "{{ kolla_internal_vip_address }}"
-kolla_external_fqdn: "{{ kolla_internal_fqdn }}"
-network_interface: "enp1s0"
-neutron_external_interface: "enp6s0"
-neutron_plugin_agent: "openvswitch"
-enable_haproxy: "yes"
-enable_cinder: "yes"
-enable_cinder_backend_lvm: "yes"
-keystone_token_provider: 'fernet'
-cinder_volume_group: "openstack_cinder"
-nova_compute_virt_type: "qemu"
+
+![](/Image/2.png)
+
+
 Note that we enabled cinder block storage for openstack and defined the name of the existing volume group.
 sudo vgs
   VG               #PV #LV #SN Attr   VSize   VFree  
