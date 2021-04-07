@@ -1,5 +1,5 @@
 ============
-#Openstack_Kolla-Ansible
+Openstack_Kolla-Ansible
 =======
 # Deploy All-In-One OpenStack with Kolla-Ansible on Ubuntu 18.04
 System Requirements
