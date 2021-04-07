@@ -303,16 +303,19 @@ In regards to networking, edit the init-runonce script and configure your public
 ```sh
 vim kolla-openstack/share/kolla-ansible/init-runonce
 ```
+```sh
 ...
 ENABLE_EXT_NET=${ENABLE_EXT_NET:-1}
 EXT_NET_CIDR=${EXT_NET_CIDR:-'192.168.122.0/24'}
 EXT_NET_RANGE=${EXT_NET_RANGE:-'start=192.168.122.15,end=192.168.122.45'}
 EXT_NET_GATEWAY=${EXT_NET_GATEWAY:-'192.168.122.1'}
 Next, run the script from the virtual environment.
+```
 
 ```sh
 kolla-openstack/share/kolla-ansible/init-runonce
 ```
+```sh
 ...
 +----------------------------+-----------+
 | Field                      | Value     |
@@ -340,6 +343,7 @@ openstack server create \
     --key-name mykey \
     --network demo-net \
     demo1
+```
 Reconfiguring the Stack
 If you want to reconfigure the stack by adding or removing services, edit the globals.yml configuration file and redoply the changes from the virtual environment.
 
@@ -353,6 +357,7 @@ The redeploy the changes;
 ```sh
 kolla-ansible -i all-in-one  reconfigure
 ```
+```sh
 Accessing OpenStack Web Interface (Horizon)
 So far so good! OpenStack is up and running. It is time we login to the web interface.
 
@@ -372,6 +377,7 @@ So, 172.16.1.142, is the IP address with which we access OpenStack from the exte
 Therefore, to access the OpenStack Horizon from the browser, use the address, https://172.16.1.142
 
 .This should take you to OpenStack web interface login page;
+```
 ![](/Image/3.PNG)
 
 Login using admin as the username.
