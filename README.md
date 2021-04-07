@@ -95,7 +95,7 @@ grep -vE '^$|^#' /etc/kolla/globals.yml
 ---
 ```
 
-![](/Image/2.png)
+![](/Image/2.PNG)
 
 
 Note that we enabled cinder block storage for openstack and defined the name of the existing volume group.
