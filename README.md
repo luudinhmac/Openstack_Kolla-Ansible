@@ -15,4 +15,5 @@ Update and upgrade your system packages
 Install the required packages;
 
 ```sh sudo apt install python3-dev python3-venv libffi-dev gcc libssl-dev git
+
 ```
