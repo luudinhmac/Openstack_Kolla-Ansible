@@ -382,3 +382,6 @@ You can obtain the admin credentials from the Kolla passwords file, /etc/kolla/p
 grep keystone_admin_password /etc/kolla/passwords.yml
 ```
 keystone_admin_password: vyntMgfyaZnHUcVGqQJ5OqVxbe4ppUJ2exAiB7po
+
+
+![](/Image/4.PNG)
