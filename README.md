@@ -372,3 +372,4 @@ So, 172.16.1.142, is the IP address with which we access OpenStack from the exte
 Therefore, to access the OpenStack Horizon from the browser, use the address, https://172.16.1.142
 
 .This should take you to OpenStack web interface login page;
+![](/Image/3.PNG)
